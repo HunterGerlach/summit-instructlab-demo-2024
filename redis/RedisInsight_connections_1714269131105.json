@@ -1,0 +1,50 @@
+[
+  {
+    "compressor": "NONE",
+    "id": "36fd8dec-2855-4b0e-aac9-827b5259593e",
+    "host": "redis_vector_db",
+    "port": 6379,
+    "name": "redis-vector-db",
+    "db": 0,
+    "username": "default",
+    "password": "testing123",
+    "connectionType": "STANDALONE",
+    "nameFromProvider": null,
+    "provider": "UNKNOWN",
+    "lastConnection": "2024-04-28T01:51:44.508Z",
+    "nodes": [],
+    "modules": [
+      {
+        "name": "timeseries",
+        "version": 11011,
+        "semanticVersion": "1.10.11"
+      },
+      {
+        "name": "search",
+        "version": 20811,
+        "semanticVersion": "2.8.11"
+      },
+      {
+        "name": "redisgears_2",
+        "version": 20016
+      },
+      {
+        "name": "bf",
+        "version": 20611,
+        "semanticVersion": "2.6.11"
+      },
+      {
+        "name": "ReJSON",
+        "version": 20609,
+        "semanticVersion": "2.6.9"
+      }
+    ],
+    "tls": null,
+    "tlsServername": null,
+    "verifyServerCert": null,
+    "caCert": null,
+    "clientCert": null,
+    "ssh": null,
+    "sshOptions": null
+  }
+]

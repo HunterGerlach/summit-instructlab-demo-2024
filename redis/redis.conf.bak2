@@ -1,0 +1,41 @@
+# Redis configuration file
+
+################################## NETWORK #####################################
+bind 0.0.0.0
+port 6379
+
+################################## SECURITY ####################################
+requirepass "superStrongPassword"
+
+################################## APPEND ONLY MODE ############################
+appendonly yes
+appendfsync everysec
+
+############################## MEMORY MANAGEMENT ###############################
+maxmemory <appropriate-memory-limit>
+maxmemory-policy allkeys-lru
+
+########################## ADVANCED CONFIG #####################################
+proto-max-bulk-len 512mb
+
+# Set client output buffer limits according to your use case.
+client-output-buffer-limit normal 0 0 0
+client-output-buffer-limit replica 256mb 64mb 60
+client-output-buffer-limit pubsub 32mb 8mb 60
+
+# Disable THP (Transparent Huge Pages) for performance reasons.
+disable-thp yes
+
+# Set auto-aof-rewrite-min-size to a reasonable value to prevent too frequent rewrites.
+auto-aof-rewrite-min-size 64mb
+
+# Set lazyfree-lazy-eviction to yes for better performance during evictions.
+lazyfree-lazy-eviction yes
+
+# Enable AOF rewrite incrementally for better performance.
+aof-rewrite-incremental-fsync yes
+
+########################### ACTIVE DEFRAGMENTATION ############################
+activedefrag yes
+
+# Ensure to replace <appropriate-memory-limit> with the memory limit for your Redis instance.

@@ -1,0 +1,90 @@
+architectures:
+  - id: "Base"
+    name: "Base Model"
+    description: "A baseline model"
+    # type: instruct
+    # endpoint: "http://10.69.12.221:8000/v1/" # "0.0.0.0:11434"
+    # uses_rag: false
+    # model_name: "instructlab-merlinite-7b-lab-mlx-q-fused-pt/ggml-model-f16.gguf" # "mistral" # "granite-7b"
+    type: ollama
+    endpoint: "http://0.0.0.0:11434"
+    uses_rag: false
+    model_name: "mistral"
+    model_source: "https://huggingface.co/mistralai/Mistral-7B-v0.1"
+  - id: "Base-RAG"
+    name: "Base Model + RAG"
+    description: "A baseline model with RAG"
+    # type: instruct
+    # endpoint: "http://10.69.12.221:8000/v1/" # "0.0.0.0:11434"
+    # uses_rag: false
+    # model_name: "instructlab-merlinite-7b-lab-mlx-q-fused-pt/ggml-model-f16.gguf" # "mistral" # "granite-7b"
+    type: ollama
+    endpoint: "http://0.0.0.0:11434"
+    uses_rag: true
+    model_name: "mistral"
+    model_source: "https://huggingface.co/mistralai/Mistral-7B-v0.1"
+  - id: "InstructLab"
+    name: "InstructLab-Aligned Model"
+    description: "Instruct model with alignments"
+    # type: instruct
+    # endpoint: "http://10.69.12.221:8000/v1/" # "0.0.0.0:11434"
+    # uses_rag: false
+    # model_name: "instructlab-merlinite-7b-lab-mlx-q-fused-pt/ggml-model-f16.gguf" # "mistral" # "granite-7b"
+    type: ollama
+    endpoint: "http://0.0.0.0:11434"
+    uses_rag: false
+    model_name: "merlinite-7b-Q4_K_M.gguf"
+    model_source: "https://huggingface.co/mistralai/Mistral-7B-v0.1"
+  - id: "InstructLab-RAG"
+    name: "InstructLab-Aligned Model + RAG"
+    description: "Instruct model with alignments and RAG"
+    # type: instruct
+    # endpoint: "http://10.69.12.221:8000/v1/" # "0.0.0.0:11434"
+    # uses_rag: false
+    # model_name: "instructlab-merlinite-7b-lab-mlx-q-fused-pt/ggml-model-f16.gguf" # "mistral" # "granite-7b"
+    type: ollama
+    endpoint: "http://0.0.0.0:11434"
+    uses_rag: true
+    model_name: "merlinite-7b-Q4_K_M.gguf"
+    model_source: "https://huggingface.co/mistralai/Mistral-7B-v0.1"
+credentials:
+  usernames:
+    jsmith:
+      name: John Smith
+      password: $2a$12$6O0IQRdsdf7D3YS.4194zu3xsHMLIyrLTCq5lUqNXEDu.2TcH2qN6 # password
+    rbriggs:
+      email: rbriggs@abcdddd.com
+      name: Rebecca Briggs
+      password: $2a$12$6O0IQRdsdf7D3YS.4194zu3xsHMLIyrLTCq5lUqNXEDu.2TcH2qN6 # password
+cookie:
+  expiry_days: 30
+  key: cfXedfsw123dvEd # Must be string
+  name: chat_doc_v1_abe
+preauthorized:
+  emails:
+    - melsby@abcdddd.com
+event:
+  location: vegas
+redis:
+  username: default
+  password: testing123
+  host: 10.69.12.154 #127.0.0.1
+  port: 6379
+inference_server:
+  type: hf # Options: hf, ollama
+  # url: llama-example-service.my.openshift.cluster.example.com
+  # url: 0.0.0.0:11434
+  url: http://10.69.12.221:8000
+logging:
+  level: INFO
+# event:
+#   location: vegas
+# redis:
+#   username: default
+#   password: default
+#   host: 127.0.0.1
+#   port: 6379
+#   schema_path: config/redis_schema.yaml
+# inference_server:
+#   type: ollama
+#   url: 0.0.0.0:11434

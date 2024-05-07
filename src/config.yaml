@@ -1,0 +1,98 @@
+architectures:
+  - id: "Original"
+    name: "Original (Granite 7b lab model)"
+    description: "A granite model with simple InstructLab alignments and no RAG"
+    type: instruct
+    endpoint: "http://10.69.12.221:8001/v1/" # "0.0.0.0:11434"
+    uses_rag: false
+    uses_reranking: false
+    model_name: "granite-7b" # "merlinite-7b-lab-Q4_K_M.gguf" # "mistral" # "granite-7b"
+    # type: ollama
+    # endpoint: "http://0.0.0.0:11434"
+    # uses_rag: false
+    # model_name: "mistral"
+    model_source: "https://huggingface.co/instructlab/granite-7b-lab"
+  - id: "Original+RAG"
+    name: "Original + RAG"
+    description: "A granite model with simple InstructLab alignments and RAG"
+    type: instruct
+    endpoint: "http://10.69.12.221:8001/v1/" # "0.0.0.0:11434"
+    uses_rag: true
+    uses_reranking: false
+    model_name: "granite-7b" # "merlinite-7b-lab-Q4_K_M.gguf" # "mistral" # "granite-7b"
+    # type: ollama
+    # endpoint: "http://0.0.0.0:11434"
+    # uses_rag: true
+    # model_name: "mistral"
+    model_source: "https://huggingface.co/instructlab/granite-7b-lab"
+  - id: "InstructLab"
+    name: "InstructLab Aligned Model"
+    description: "The granite-lab model with custom InstructLab alignments and no RAG"
+    type: instruct
+    endpoint: "http://10.69.12.221:8000/v1/" # "0.0.0.0:11434"
+    uses_rag: false
+    uses_reranking: false
+    model_name: "instructlab-granite-7b" # "instructlab-merlinite-7b-lab-mlx-q-fused-pt/ggml-model-f16.gguf" # "mistral" # "granite-7b"
+    # type: ollama
+    # endpoint: "http://0.0.0.0:11434"
+    # uses_rag: false
+    # model_name: "merlinite-7b-Q4_K_M.gguf"
+    model_source: "https://huggingface.co/HunterGerlach/granite-il-aligned"
+  - id: "InstructLab+RAG"
+    name: "InstructLab Aligned Model + RAG"
+    description: "The granite-lab model with custom InstructLab alignments and RAG"
+    type: instruct
+    endpoint: "http://10.69.12.221:8000/v1/" # "0.0.0.0:11434"
+    uses_rag: true
+    uses_reranking: false
+    model_name: "instructlab-granite-7b" # "instructlab-merlinite-7b-lab-mlx-q-fused-pt/ggml-model-f16.gguf" # "mistral" # "granite-7b"
+    # type: ollama
+    # endpoint: "http://0.0.0.0:11434"
+    # uses_rag: true
+    # model_name: "merlinite-7b-Q4_K_M.gguf"
+    model_source: "https://huggingface.co/HunterGerlach/granite-il-aligned"
+credentials: # dummy passwords created using https://bcrypt-generator.com/
+  usernames:
+    jsmith:
+      name: John Smith
+      password: $2a$12$6O0IQRdsdf7D3YS.4194zu3xsHMLIyrLTCq5lUqNXEDu.2TcH2qN6 # password
+    rbriggs:
+      email: rbriggs@abcdddd.com
+      name: Rebecca Briggs
+      password: $2a$12$IgBKSgHukvXxZvOEKIGLuuyjw/uBAa3a0tg1znZoyggzMlp2xtmkK
+    mhicks:
+      email: mhicks@redhat.com
+      name: Matt Hicks
+      password: $2a$12$yWuKv4KKXZFvkoH1rGWaWum6Zd36EK5552tRminUao3j7UmA375zK # shadowmanknows
+cookie:
+  expiry_days: 30
+  key: cfXedfsw123dvEd # Must be string
+  name: chat_doc_v1_abe
+preauthorized:
+  emails:
+    - melsby@abcdddd.com
+event:
+  location: vegas
+redis:
+  username: default
+  password: testing123
+  host: 10.41.17.89 # 10.69.12.154 #127.0.0.1 # UPDATE THIS TO THE REDIS HOST
+  port: 6379
+inference_server:
+  type: hf # Options: hf, ollama
+  # url: llama-example-service.my.openshift.cluster.example.com
+  # url: 0.0.0.0:11434
+  url: http://10.69.12.221:8000
+logging:
+  level: INFO
+# event:
+#   location: vegas
+# redis:
+#   username: default
+#   password: default
+#   host: 127.0.0.1
+#   port: 6379
+#   schema_path: config/redis_schema.yaml
+# inference_server:
+#   type: ollama
+#   url: 0.0.0.0:11434

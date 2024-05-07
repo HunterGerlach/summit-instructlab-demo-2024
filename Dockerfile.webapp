@@ -1,0 +1,28 @@
+# Dockerfile for running a streamlit app
+# Use Red Hat's python image as the base image
+FROM registry.access.redhat.com/ubi8/python-311
+
+# Set the working directory
+WORKDIR /app
+
+# Copy the requirements file
+COPY requirements.txt .
+
+# Install the required packages
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the app files
+COPY src/ .
+
+# Expose the port
+EXPOSE 8501
+
+# Run the app
+CMD ["streamlit", "run", "app.py"]
+
+
+# Build the image as Dockerfile.webapp
+# podman build -t summit-webapp -f Dockerfile.webapp .
+
+# Run the container
+# podman run -p 8501:8501 summit-webapp

@@ -20,19 +20,18 @@ RUN chown -R 1001:0 /app
 
 USER 1001
 
-
 # Expose the port
 EXPOSE 8501
 
 # Run the app
-CMD ["streamlit", "run", "app.py"]
+CMD ["streamlit", "run", "src/app.py"]
 
 
 # Build the image as Dockerfile.webapp
-# podman build -t summit-webapp -f Dockerfile.webapp .
+#podman build -t summit-webapp -f Dockerfile.webapp .
 
 # Push the image to the registry
-# podman push summit-webapp quay.io/summit-webapp
+#podman push summit-webapp quay.io/summit-webapp
 
 # Run the container
-# podman run -p 8501:8501 summit-webapp
+#podman run -p 8501:8501 summit-webapp

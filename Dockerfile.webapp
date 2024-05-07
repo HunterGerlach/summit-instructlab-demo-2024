@@ -2,6 +2,8 @@
 # Use Red Hat's python image as the base image
 FROM --platform=linux/amd64 registry.access.redhat.com/ubi8/python-311
 
+USER root
+
 RUN pip install --upgrade pip
 
 # Set the working directory

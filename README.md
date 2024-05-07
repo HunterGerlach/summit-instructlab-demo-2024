@@ -16,6 +16,12 @@ pip install -r requirements.txt
 - Build the container: `podman build . -t redis-vector-db`
 - Run the container:
 
+You need to create a network for the Redis container to run in. This is because the Redis Insights container will need to be able to connect to the Redis container.
+
+```sh
+podman network create redis-net
+```
+
 ```sh
 podman run --rm -d --network redis-net --name redis_vector_db -v $PWD/redis.conf:/usr/local/etc/redis/redis.conf:Z -p 6379:6379 redis-vector-db:latest
 ```

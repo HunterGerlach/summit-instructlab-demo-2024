@@ -61,7 +61,8 @@ class Sidebar:
             config['cookie']['expiry_days'],
             config['preauthorized']
         )
-        name, authentication_status, username = authenticator.login('Login', 'sidebar')
+        # name, authentication_status, username = authenticator.login('Login', 'sidebar')
+        name, authentication_status, username = authenticator.login(fields={'label': 'Login', 'placement': 'sidebar'})
 
         # Initialize session state variables
         if 'authentication_status' not in st.session_state:

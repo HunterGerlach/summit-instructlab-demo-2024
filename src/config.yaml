@@ -3,7 +3,7 @@ architectures:
     name: "Original (Granite 7b lab model)"
     description: "A granite model with simple InstructLab alignments and no RAG"
     type: instruct
-    endpoint: "http://10.69.12.221:8001/v1/" # "0.0.0.0:11434"
+    endpoint: "http://172.20.3.189:8001/v1/" # "0.0.0.0:11434"
     uses_rag: false
     uses_reranking: false
     model_name: "granite-7b" # "merlinite-7b-lab-Q4_K_M.gguf" # "mistral" # "granite-7b"
@@ -16,7 +16,7 @@ architectures:
     name: "Original + RAG"
     description: "A granite model with simple InstructLab alignments and RAG"
     type: instruct
-    endpoint: "http://10.69.12.221:8001/v1/" # "0.0.0.0:11434"
+    endpoint: "http://172.20.3.189:8001/v1/" # "0.0.0.0:11434"
     uses_rag: true
     uses_reranking: false
     model_name: "granite-7b" # "merlinite-7b-lab-Q4_K_M.gguf" # "mistral" # "granite-7b"
@@ -29,7 +29,7 @@ architectures:
     name: "InstructLab Aligned Model"
     description: "The granite-lab model with custom InstructLab alignments and no RAG"
     type: instruct
-    endpoint: "http://10.69.12.221:8000/v1/" # "0.0.0.0:11434"
+    endpoint: "http://172.20.3.189:8000/v1/" # "0.0.0.0:11434"
     uses_rag: false
     uses_reranking: false
     model_name: "instructlab-granite-7b" # "instructlab-merlinite-7b-lab-mlx-q-fused-pt/ggml-model-f16.gguf" # "mistral" # "granite-7b"
@@ -42,7 +42,7 @@ architectures:
     name: "InstructLab Aligned Model + RAG"
     description: "The granite-lab model with custom InstructLab alignments and RAG"
     type: instruct
-    endpoint: "http://10.69.12.221:8000/v1/" # "0.0.0.0:11434"
+    endpoint: "http://172.20.3.189:8000/v1/" # "0.0.0.0:11434"
     uses_rag: true
     uses_reranking: false
     model_name: "instructlab-granite-7b" # "instructlab-merlinite-7b-lab-mlx-q-fused-pt/ggml-model-f16.gguf" # "mistral" # "granite-7b"
@@ -76,7 +76,7 @@ event:
 redis:
   username: default
   password: testing123
-  host: 10.41.17.89 # 10.69.12.154 #127.0.0.1 # UPDATE THIS TO THE REDIS HOST
+  host: 172.20.3.189 # 10.41.17.89 # 10.69.12.154 #127.0.0.1 # UPDATE THIS TO THE REDIS HOST
   port: 6379
 inference_server:
   type: hf # Options: hf, ollama

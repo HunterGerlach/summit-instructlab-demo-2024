@@ -1,0 +1,668 @@
+[31mERROR[0m: 2024-05-06 22:36:11,437 - Unexpected error during PDF upload or processing: No module named 'PyPDF2'
+[32mINFO[0m: 2024-05-06 22:36:37,754 - Index Name: 7193468748186165249
+[31mERROR[0m: 2024-05-06 22:36:37,755 - Unexpected error during PDF upload or processing: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+[32mINFO[0m: 2024-05-06 22:36:38,090 - Index Name: 7193468749595451393
+[31mERROR[0m: 2024-05-06 22:36:38,091 - Unexpected error during PDF upload or processing: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+[32mINFO[0m: 2024-05-06 22:41:39,059 - Index Name: 7193470011950931969
+[32mINFO[0m: 2024-05-06 22:41:55,387 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+[32mINFO[0m: 2024-05-06 22:53:45,838 - Index Name: 7193473060282998785
+[32mINFO[0m: 2024-05-06 22:53:45,839 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+[33mWARNING[0m: 2024-05-06 22:54:31,205 - Error while downloading from https://cdn-lfs.huggingface.co/sentence-transformers/all-mpnet-base-v2/78c0197b6159d92658e319bc1d72e4c73a9a03dd03815e70e555c5ef05615658?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1715314939&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcxNTMxNDkzOX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9zZW50ZW5jZS10cmFuc2Zvcm1lcnMvYWxsLW1wbmV0LWJhc2UtdjIvNzhjMDE5N2I2MTU5ZDkyNjU4ZTMxOWJjMWQ3MmU0YzczYTlhMDNkZDAzODE1ZTcwZTU1NWM1ZWYwNTYxNTY1OD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=OnNNLZqw9oot-RoyzwFuezy%7Egn5dXqpCH0Zme-Bwqf4i9f7lJ9CvYvFCCr-kcmRdNk95QCk2y6TKkXBCv20fod8VXIR1lGf7egg9rYpcRI6Gf5C7Bc2o1LK%7E3XrtIo2O%7E8hjGlUe2psPksct50G1xhL-pH%7EGM5g4GBR84dvzBsrJdya5iQfJXy5U0Ya9xMPTzYlBhLlVr-TuctOSanvMCDIUTMCiLqKaeUvbH9AEtypPhqcFTsiBwYNyu2aXbfkaN0tBSvjs5HGLfKRRgkgmjVJ4PD6ueVCMGvhcmK7x4uGVlRSg3oUgogKNaP9h-RSU3RICrI7C1dQg1avimKqo%7EQ__&Key-Pair-Id=KVTP0A1DKRTAX: HTTPSConnectionPool(host='cdn-lfs.huggingface.co', port=443): Read timed out.
+Trying to resume download...
+[32mINFO[0m: 2024-05-06 22:54:54,194 - Use pytorch device_name: mps
+[32mINFO[0m: 2024-05-06 22:54:54,220 - Use pytorch device_name: mps
+[31mERROR[0m: 2024-05-06 22:54:54,424 - Unexpected error during PDF upload or processing: pypdfium2 package not found, please install it with `pip install pypdfium2`
+[32mINFO[0m: 2024-05-06 22:55:27,704 - Index Name: 7193473487539970049
+[32mINFO[0m: 2024-05-06 22:55:28,605 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+[32mINFO[0m: 2024-05-06 22:55:30,064 - Use pytorch device_name: mps
+[32mINFO[0m: 2024-05-06 22:55:30,453 - Loaded 91 document chunks.
+[31mERROR[0m: 2024-05-06 22:55:30,454 - Unexpected error during PDF upload or processing: Could not import redis python package. Please install it with `pip install redis`.
+[32mINFO[0m: 2024-05-06 22:55:54,697 - Index Name: 7193473600756817921
+[32mINFO[0m: 2024-05-06 22:55:55,080 - Index Name: 7193473602363236353
+[32mINFO[0m: 2024-05-06 22:55:55,769 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+[32mINFO[0m: 2024-05-06 22:55:55,769 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+[32mINFO[0m: 2024-05-06 22:55:57,784 - Use pytorch device_name: mps
+[32mINFO[0m: 2024-05-06 22:55:57,934 - Loaded 91 document chunks.
+[32mINFO[0m: 2024-05-06 22:55:58,980 - Use pytorch device_name: mps
+[32mINFO[0m: 2024-05-06 22:56:05,592 - Stored document to index: 7193473602363236353
+[32mINFO[0m: 2024-05-06 22:56:19,646 - Model configs (in manage_responses): [<model_services.model_config.ModelConfig object at 0x17fdf4ca0>, <model_services.model_config.ModelConfig object at 0x17fdf6c20>, <model_services.model_config.ModelConfig object at 0x169085c30>, <model_services.model_config.ModelConfig object at 0x17e066740>]
+[32mINFO[0m: 2024-05-06 22:56:19,646 - Full conversation: 
+[32mINFO[0m: 2024-05-06 22:56:19,647 - Model: ModelConfig(name=Original (Granite 7b lab model), description=A granite model with simple InstructLab alignments and no RAG, endpoint=http://10.69.12.221:8001/v1/, uses_rag=False, model_name=granite-7b, type=instruct), id=Original, model_source=https://huggingface.co/instructlab/granite-7b-lab, uses_reranking=False
+[32mINFO[0m: 2024-05-06 22:56:19,647 - Model ID: Original
+[32mINFO[0m: 2024-05-06 22:56:19,647 - Model name: granite-7b
+[32mINFO[0m: 2024-05-06 22:56:19,647 - Model type: instruct
+[32mINFO[0m: 2024-05-06 22:56:19,647 - Model endpoint: http://10.69.12.221:8001/v1/
+[32mINFO[0m: 2024-05-06 22:56:19,647 - Model: ModelConfig(name=Original + RAG, description=A granite model with simple InstructLab alignments and RAG, endpoint=http://10.69.12.221:8001/v1/, uses_rag=True, model_name=granite-7b, type=instruct), id=Original+RAG, model_source=https://huggingface.co/instructlab/granite-7b-lab, uses_reranking=False
+[32mINFO[0m: 2024-05-06 22:56:19,647 - Model ID: Original+RAG
+[32mINFO[0m: 2024-05-06 22:56:19,647 - Model name: granite-7b
+[32mINFO[0m: 2024-05-06 22:56:19,647 - Model type: instruct
+[32mINFO[0m: 2024-05-06 22:56:19,647 - Model endpoint: http://10.69.12.221:8001/v1/
+[32mINFO[0m: 2024-05-06 22:56:19,648 - Model: ModelConfig(name=InstructLab Aligned Model, description=The granite-lab model with custom InstructLab alignments and no RAG, endpoint=http://10.69.12.221:8000/v1/, uses_rag=False, model_name=instructlab-granite-7b, type=instruct), id=InstructLab, model_source=https://huggingface.co/HunterGerlach/granite-il-aligned, uses_reranking=False
+[32mINFO[0m: 2024-05-06 22:56:19,648 - Model ID: InstructLab
+[32mINFO[0m: 2024-05-06 22:56:19,648 - Model name: instructlab-granite-7b
+[32mINFO[0m: 2024-05-06 22:56:19,648 - Model type: instruct
+[32mINFO[0m: 2024-05-06 22:56:19,648 - Model endpoint: http://10.69.12.221:8000/v1/
+[32mINFO[0m: 2024-05-06 22:56:19,648 - Model: ModelConfig(name=InstructLab Aligned Model + RAG, description=The granite-lab model with custom InstructLab alignments and RAG, endpoint=http://10.69.12.221:8000/v1/, uses_rag=True, model_name=instructlab-granite-7b, type=instruct), id=InstructLab+RAG, model_source=https://huggingface.co/HunterGerlach/granite-il-aligned, uses_reranking=False
+[32mINFO[0m: 2024-05-06 22:56:19,648 - Model ID: InstructLab+RAG
+[32mINFO[0m: 2024-05-06 22:56:19,648 - Model name: instructlab-granite-7b
+[32mINFO[0m: 2024-05-06 22:56:19,648 - Model type: instruct
+[32mINFO[0m: 2024-05-06 22:56:19,648 - Model endpoint: http://10.69.12.221:8000/v1/
+[32mINFO[0m: 2024-05-06 22:56:19,648 - Full conversation histories: {'Original': [], 'Original+RAG': [], 'InstructLab': [], 'InstructLab+RAG': []}
+[32mINFO[0m: 2024-05-06 22:56:19,648 - Calling display_model_comparison_results...
+[32mINFO[0m: 2024-05-06 22:56:19,648 - Displaying model comparison results...
+[32mINFO[0m: 2024-05-06 22:56:19,649 - No of models: 4
+[32mINFO[0m: 2024-05-06 22:56:19,649 - Results: {'Original': [], 'Original+RAG': [], 'InstructLab': [], 'InstructLab+RAG': []}
+[32mINFO[0m: 2024-05-06 22:56:19,649 - Total number of columns: 4
+[32mINFO[0m: 2024-05-06 22:56:19,649 - Model Index: 0
+[32mINFO[0m: 2024-05-06 22:56:19,649 - COLUMN: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(8, 0)), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(8,), _index=4), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+[32mINFO[0m: 2024-05-06 22:56:19,650 - Starting the conversational chat...
+[32mINFO[0m: 2024-05-06 22:56:19,650 - Invoking the LLM asynchronously...
+[32mINFO[0m: 2024-05-06 22:56:19,651 - LLM Initialized
+[31mERROR[0m: 2024-05-06 22:56:22,846 - Error during model comparisons: Could not import flashrank python package. Please install it with `pip install flashrank`.
+[32mINFO[0m: 2024-05-06 22:58:03,555 - Index Name: 7193474141226442752
+[32mINFO[0m: 2024-05-06 22:58:04,438 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+[32mINFO[0m: 2024-05-06 22:58:05,888 - Use pytorch device_name: mps
+[32mINFO[0m: 2024-05-06 22:58:06,041 - Loaded 91 document chunks.
+[32mINFO[0m: 2024-05-06 22:58:09,558 - Stored document to index: 7193474141226442752
+[32mINFO[0m: 2024-05-06 22:58:17,464 - Model configs (in manage_responses): [<model_services.model_config.ModelConfig object at 0x2837e3c40>, <model_services.model_config.ModelConfig object at 0x1703c9fc0>, <model_services.model_config.ModelConfig object at 0x1703ca0e0>, <model_services.model_config.ModelConfig object at 0x286ad93f0>]
+[32mINFO[0m: 2024-05-06 22:58:17,464 - Full conversation: 
+[32mINFO[0m: 2024-05-06 22:58:17,465 - Model: ModelConfig(name=Original (Granite 7b lab model), description=A granite model with simple InstructLab alignments and no RAG, endpoint=http://10.69.12.221:8001/v1/, uses_rag=False, model_name=granite-7b, type=instruct), id=Original, model_source=https://huggingface.co/instructlab/granite-7b-lab, uses_reranking=False
+[32mINFO[0m: 2024-05-06 22:58:17,465 - Model ID: Original
+[32mINFO[0m: 2024-05-06 22:58:17,465 - Model name: granite-7b
+[32mINFO[0m: 2024-05-06 22:58:17,465 - Model type: instruct
+[32mINFO[0m: 2024-05-06 22:58:17,465 - Model endpoint: http://10.69.12.221:8001/v1/
+[32mINFO[0m: 2024-05-06 22:58:17,465 - Model: ModelConfig(name=Original + RAG, description=A granite model with simple InstructLab alignments and RAG, endpoint=http://10.69.12.221:8001/v1/, uses_rag=True, model_name=granite-7b, type=instruct), id=Original+RAG, model_source=https://huggingface.co/instructlab/granite-7b-lab, uses_reranking=False
+[32mINFO[0m: 2024-05-06 22:58:17,465 - Model ID: Original+RAG
+[32mINFO[0m: 2024-05-06 22:58:17,466 - Model name: granite-7b
+[32mINFO[0m: 2024-05-06 22:58:17,466 - Model type: instruct
+[32mINFO[0m: 2024-05-06 22:58:17,466 - Model endpoint: http://10.69.12.221:8001/v1/
+[32mINFO[0m: 2024-05-06 22:58:17,466 - Model: ModelConfig(name=InstructLab Aligned Model, description=The granite-lab model with custom InstructLab alignments and no RAG, endpoint=http://10.69.12.221:8000/v1/, uses_rag=False, model_name=instructlab-granite-7b, type=instruct), id=InstructLab, model_source=https://huggingface.co/HunterGerlach/granite-il-aligned, uses_reranking=False
+[32mINFO[0m: 2024-05-06 22:58:17,466 - Model ID: InstructLab
+[32mINFO[0m: 2024-05-06 22:58:17,466 - Model name: instructlab-granite-7b
+[32mINFO[0m: 2024-05-06 22:58:17,466 - Model type: instruct
+[32mINFO[0m: 2024-05-06 22:58:17,466 - Model endpoint: http://10.69.12.221:8000/v1/
+[32mINFO[0m: 2024-05-06 22:58:17,467 - Model: ModelConfig(name=InstructLab Aligned Model + RAG, description=The granite-lab model with custom InstructLab alignments and RAG, endpoint=http://10.69.12.221:8000/v1/, uses_rag=True, model_name=instructlab-granite-7b, type=instruct), id=InstructLab+RAG, model_source=https://huggingface.co/HunterGerlach/granite-il-aligned, uses_reranking=False
+[32mINFO[0m: 2024-05-06 22:58:17,467 - Model ID: InstructLab+RAG
+[32mINFO[0m: 2024-05-06 22:58:17,467 - Model name: instructlab-granite-7b
+[32mINFO[0m: 2024-05-06 22:58:17,467 - Model type: instruct
+[32mINFO[0m: 2024-05-06 22:58:17,467 - Model endpoint: http://10.69.12.221:8000/v1/
+[32mINFO[0m: 2024-05-06 22:58:17,467 - Full conversation histories: {'Original': [], 'Original+RAG': [], 'InstructLab': [], 'InstructLab+RAG': []}
+[32mINFO[0m: 2024-05-06 22:58:17,467 - Calling display_model_comparison_results...
+[32mINFO[0m: 2024-05-06 22:58:17,467 - Displaying model comparison results...
+[32mINFO[0m: 2024-05-06 22:58:17,467 - No of models: 4
+[32mINFO[0m: 2024-05-06 22:58:17,468 - Results: {'Original': [], 'Original+RAG': [], 'InstructLab': [], 'InstructLab+RAG': []}
+[32mINFO[0m: 2024-05-06 22:58:17,468 - Total number of columns: 4
+[32mINFO[0m: 2024-05-06 22:58:17,468 - Model Index: 0
+[32mINFO[0m: 2024-05-06 22:58:17,468 - COLUMN: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(8, 0)), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(8,), _index=4), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+[32mINFO[0m: 2024-05-06 22:58:17,468 - Starting the conversational chat...
+[32mINFO[0m: 2024-05-06 22:58:17,468 - Invoking the LLM asynchronously...
+[32mINFO[0m: 2024-05-06 22:58:17,469 - LLM Initialized
+[32mINFO[0m: 2024-05-06 23:02:53,225 - Full prompt: You are a helpful assistant who responds in short concise, but accurate statements. How would you respond to the following user query: 
+
+what's up, doc?
+
+Please provide a response concisely to the original user query above. You can let the user know if you are not certain of the answer.
+[32mINFO[0m: 2024-05-06 23:02:53,225 - Setting up the chain for fetching and processing documents...
+[32mINFO[0m: 2024-05-06 23:02:53,226 - Starting the parallel runnable...
+[32mINFO[0m: 2024-05-06 23:02:53,226 - Starting the streaming process...
+[32mINFO[0m: 2024-05-06 23:02:53,226 - Streaming responses from LLM...
+[32mINFO[0m: 2024-05-06 23:02:53,226 - Prompt: You are a helpful assistant who responds in short concise, but accurate statements. How would you respond to the following user query: 
+
+what's up, doc?
+
+Please provide a response concisely to the original user query above. You can let the user know if you are not certain of the answer.
+[33mWARNING[0m: 2024-05-06 23:02:53,226 - Before streaming...
+[32mINFO[0m: 2024-05-06 23:04:08,302 - Retrying request to /chat/completions in 0.929584 seconds
+[32mINFO[0m: 2024-05-06 23:04:20,428 - Retrying request to /chat/completions in 1.842329 seconds
+[32mINFO[0m: 2024-05-06 23:04:56,057 - Index Name: 7193475871385231361
+[32mINFO[0m: 2024-05-06 23:04:56,636 - Index Name: 7193475873813733377
+[32mINFO[0m: 2024-05-06 23:04:57,216 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+[32mINFO[0m: 2024-05-06 23:04:57,216 - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+[32mINFO[0m: 2024-05-06 23:05:00,334 - Use pytorch device_name: mps
+[32mINFO[0m: 2024-05-06 23:05:00,473 - Loaded 91 document chunks.
+[32mINFO[0m: 2024-05-06 23:05:01,104 - Use pytorch device_name: mps
+[32mINFO[0m: 2024-05-06 23:05:04,346 - Stored document to index: 7193475873813733377
+[32mINFO[0m: 2024-05-06 23:05:09,279 - Model configs (in manage_responses): [<model_services.model_config.ModelConfig object at 0x353a32140>, <model_services.model_config.ModelConfig object at 0x16dc6e410>, <model_services.model_config.ModelConfig object at 0x353a7fdc0>, <model_services.model_config.ModelConfig object at 0x353a7ed70>]
+[32mINFO[0m: 2024-05-06 23:05:09,279 - Full conversation: 
+[32mINFO[0m: 2024-05-06 23:05:09,279 - Model: ModelConfig(name=Original (Granite 7b lab model), description=A granite model with simple InstructLab alignments and no RAG, endpoint=http://172.20.3.189:8001/v1/, uses_rag=False, model_name=granite-7b, type=instruct), id=Original, model_source=https://huggingface.co/instructlab/granite-7b-lab, uses_reranking=False
+[32mINFO[0m: 2024-05-06 23:05:09,280 - Model ID: Original
+[32mINFO[0m: 2024-05-06 23:05:09,280 - Model name: granite-7b
+[32mINFO[0m: 2024-05-06 23:05:09,280 - Model type: instruct
+[32mINFO[0m: 2024-05-06 23:05:09,280 - Model endpoint: http://172.20.3.189:8001/v1/
+[32mINFO[0m: 2024-05-06 23:05:09,280 - Model: ModelConfig(name=Original + RAG, description=A granite model with simple InstructLab alignments and RAG, endpoint=http://172.20.3.189:8001/v1/, uses_rag=True, model_name=granite-7b, type=instruct), id=Original+RAG, model_source=https://huggingface.co/instructlab/granite-7b-lab, uses_reranking=False
+[32mINFO[0m: 2024-05-06 23:05:09,280 - Model ID: Original+RAG
+[32mINFO[0m: 2024-05-06 23:05:09,280 - Model name: granite-7b
+[32mINFO[0m: 2024-05-06 23:05:09,280 - Model type: instruct
+[32mINFO[0m: 2024-05-06 23:05:09,281 - Model endpoint: http://172.20.3.189:8001/v1/
+[32mINFO[0m: 2024-05-06 23:05:09,281 - Model: ModelConfig(name=InstructLab Aligned Model, description=The granite-lab model with custom InstructLab alignments and no RAG, endpoint=http://172.20.3.189:8000/v1/, uses_rag=False, model_name=instructlab-granite-7b, type=instruct), id=InstructLab, model_source=https://huggingface.co/HunterGerlach/granite-il-aligned, uses_reranking=False
+[32mINFO[0m: 2024-05-06 23:05:09,281 - Model ID: InstructLab
+[32mINFO[0m: 2024-05-06 23:05:09,281 - Model name: instructlab-granite-7b
+[32mINFO[0m: 2024-05-06 23:05:09,281 - Model type: instruct
+[32mINFO[0m: 2024-05-06 23:05:09,281 - Model endpoint: http://172.20.3.189:8000/v1/
+[32mINFO[0m: 2024-05-06 23:05:09,281 - Model: ModelConfig(name=InstructLab Aligned Model + RAG, description=The granite-lab model with custom InstructLab alignments and RAG, endpoint=http://172.20.3.189:8000/v1/, uses_rag=True, model_name=instructlab-granite-7b, type=instruct), id=InstructLab+RAG, model_source=https://huggingface.co/HunterGerlach/granite-il-aligned, uses_reranking=False
+[32mINFO[0m: 2024-05-06 23:05:09,281 - Model ID: InstructLab+RAG
+[32mINFO[0m: 2024-05-06 23:05:09,282 - Model name: instructlab-granite-7b
+[32mINFO[0m: 2024-05-06 23:05:09,282 - Model type: instruct
+[32mINFO[0m: 2024-05-06 23:05:09,282 - Model endpoint: http://172.20.3.189:8000/v1/
+[32mINFO[0m: 2024-05-06 23:05:09,282 - Full conversation histories: {'Original': [], 'Original+RAG': [], 'InstructLab': [], 'InstructLab+RAG': []}
+[32mINFO[0m: 2024-05-06 23:05:09,282 - Calling display_model_comparison_results...
+[32mINFO[0m: 2024-05-06 23:05:09,282 - Displaying model comparison results...
+[32mINFO[0m: 2024-05-06 23:05:09,283 - No of models: 4
+[32mINFO[0m: 2024-05-06 23:05:09,283 - Results: {'Original': [], 'Original+RAG': [], 'InstructLab': [], 'InstructLab+RAG': []}
+[32mINFO[0m: 2024-05-06 23:05:09,283 - Total number of columns: 4
+[32mINFO[0m: 2024-05-06 23:05:09,283 - Model Index: 0
+[32mINFO[0m: 2024-05-06 23:05:09,283 - COLUMN: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(8, 0)), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(8,), _index=4), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+[32mINFO[0m: 2024-05-06 23:05:09,283 - Starting the conversational chat...
+[32mINFO[0m: 2024-05-06 23:05:09,284 - Invoking the LLM asynchronously...
+[32mINFO[0m: 2024-05-06 23:05:09,285 - LLM Initialized
+[32mINFO[0m: 2024-05-06 23:05:11,690 - Full prompt: You are a helpful assistant who responds in short concise, but accurate statements. How would you respond to the following user query: 
+
+what's up doc?
+
+Please provide a response concisely to the original user query above. You can let the user know if you are not certain of the answer.
+[32mINFO[0m: 2024-05-06 23:05:11,690 - Setting up the chain for fetching and processing documents...
+[32mINFO[0m: 2024-05-06 23:05:11,691 - Starting the parallel runnable...
+[32mINFO[0m: 2024-05-06 23:05:11,691 - Starting the streaming process...
+[32mINFO[0m: 2024-05-06 23:05:11,692 - Streaming responses from LLM...
+[32mINFO[0m: 2024-05-06 23:05:11,692 - Prompt: You are a helpful assistant who responds in short concise, but accurate statements. How would you respond to the following user query: 
+
+what's up doc?
+
+Please provide a response concisely to the original user query above. You can let the user know if you are not certain of the answer.
+[33mWARNING[0m: 2024-05-06 23:05:11,692 - Before streaming...
+[32mINFO[0m: 2024-05-06 23:05:12,195 - HTTP Request: POST http://172.20.3.189:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[32mINFO[0m: 2024-05-06 23:05:14,566 - Model Index: 1
+[32mINFO[0m: 2024-05-06 23:05:14,566 - COLUMN: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(8, 1)), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(8,), _index=4), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+[32mINFO[0m: 2024-05-06 23:05:14,567 - Starting the conversational chat...
+[32mINFO[0m: 2024-05-06 23:05:14,567 - Invoking the LLM asynchronously...
+[32mINFO[0m: 2024-05-06 23:05:14,568 - LLM Initialized
+[32mINFO[0m: 2024-05-06 23:05:15,577 - Full prompt: You are a helpful assistant who responds in short concise, but accurate statements. How would you respond to the following user query: 
+
+what's up doc?
+
+--- BEGIN DOCS ---n
+Additionally, I found the following documents that may be relevant to this inquiry:
+
+1:
+You are asked to come up with a set of {num samples} diverse questions on {task}.
+Please follow these guiding principles when generating responses:
+* Use proper grammar and punctuation.
+* Always generate safe and respectful content. Do not generate content that is harmful, abusive, or
+offensive.
+* Always generate content that is factually accurate and relevant to the prompt.
+* The questions should be clear and human-like.
+* The questions should be diverse and cover a wide range of topics.
+* The questions should not be template-based or generic, it should be very diverse.
+* Simply return the questions, do not return any answers or explanations.
+
+2:
+Please act as an impartial judge and evaluate the quality of the answer provided by an AI assistant
+to the questions displayed below. Evaluate whether or not the answer is a good example of how AI
+Assistant should respond to the user’s instruction. Please assign a score using the following 3-point
+scale:
+1: It means the answer is incorrect, irrelevant, unsafe or provides incomplete and garbage information.
+For instance, the answer may be factually wrong, off-topic, or filled with irrelevant content that
+doesn’t address the user’s question or it could be incomplete and hanging. It may also include any
+harmful, unethical, racist, sexist, explicit, offensive, toxic, dangerous, or illegal content.
+
+3:
+Nisan Stiennon, Long Ouyang, Jeff Wu, Daniel M. Ziegler, Ryan Lowe, Chelsea Voss, Alec Radford,
+Dario Amodei, and Paul Christiano. Learning to summarize from human feedback, 2022.
+Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li, Carlos Guestrin, Percy
+Liang, and Tatsunori B. Hashimoto. Stanford alpaca: An instruction-following llama model.
+https://github.com/tatsu-lab/stanford_alpaca, 2023.
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et al. Llama 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288, 2023.
+
+4:
+an instruction evaluator, the teacher model uses targeted prompts to filter out questions
+that don’t meet predefined principles, including relevance to the domain, potential harm,
+or questions beyond a language model’s answering capabilities. This ensures that only
+high-quality, contextually appropriate questions move forward in the process.
+3. Generating responses: The teacher model, functioning as a response generator in this
+stage, adopts dual personas for precision and creativity, guided by distinct prompts. This
+tailored approach helps to generate both, creative responses for domains like writing and
+role-play, and precise answers for STEM and data extraction, aligning the response style to
+
+5:
+https://github.com/tatsu-lab/stanford_alpaca, 2023.
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et al. Llama 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288, 2023.
+Harsh Trivedi, Niranjan Balasubramanian, Tushar Khot, and Ashish Sabharwal. Musique: Multihop
+questions via single-hop question composition, 2022.
+Lewis Tunstall, Edward Beeching, Nathan Lambert, Nazneen Rajani, Kashif Rasul, Younes Belkada,
+Shengyi Huang, Leandro von Werra, Clementine Fourrier, Nathan Habib, Nathan Sarrazin, Omar ´
+Sanseviero, Alexander M. Rush, and Thomas Wolf. Zephyr: Direct Distillation of LM Alignment,
+
+6:
+mine aligned code and natural language pairs from stack overflow. In International Conference
+on Mining Software Repositories, MSR, pp. 476–486. ACM, 2018. doi: https://doi.org/10.1145/
+3196398.3196408.
+Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. HellaSwag: Can a
+Machine Really Finish Your Sentence?, May 2019.
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang,
+Zi Lin, Zhuohan Li, Dacheng Li, Eric P. Xing, Hao Zhang, Joseph E. Gonzalez, and Ion Stoica.
+Judging llm-as-a-judge with mt-bench and chatbot arena, 2023.
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang,
+
+7:
+3. Generating responses: The teacher model, functioning as a response generator in this
+stage, adopts dual personas for precision and creativity, guided by distinct prompts. This
+tailored approach helps to generate both, creative responses for domains like writing and
+role-play, and precise answers for STEM and data extraction, aligning the response style to
+human expectations through principles and seed examples in the leaf nodes.
+5
+
+8:
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang,
+Zi Lin, Zhuohan Li, Dacheng Li, Eric P. Xing, Hao Zhang, Joseph E. Gonzalez, and Ion Stoica.
+Judging llm-as-a-judge with mt-bench and chatbot arena, 2023.
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang,
+Zi Lin, Zhuohan Li, Dacheng Li, Eric Xing, et al. Judging llm-as-a-judge with mt-bench and
+chatbot arena. Advances in Neural Information Processing Systems, 36, 2024.
+10
+
+9:
+also maintains its knowledge or reasoning capability, as shown by the overall superior performance
+in the rest of the metrics. Besides, unlike those top models that use GPT-4 as the teacher model,
+we achieve this performance using the open-weights MIXTRAL-8X7B-INSTRUCT-V0.1, which is
+relatively weaker teacher model at orders of magnitude less cost.
+REFERENCES
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and
+Oyvind Tafjord. Think you have Solved Question Answering? Try ARC, the AI2 Reasoning
+Challenge, March 2018.
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser,
+
+10:
+relatively weaker teacher model at orders of magnitude less cost.
+REFERENCES
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and
+Oyvind Tafjord. Think you have Solved Question Answering? Try ARC, the AI2 Reasoning
+Challenge, March 2018.
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser,
+Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John
+Schulman. Training Verifiers to Solve Math Word Problems, November 2021.
+Arnav Gudibande, Eric Wallace, Charlie Snell, Xinyang Geng, Hao Liu, Pieter Abbeel, Sergey
+Levine, and Dawn Song. The false promise of imitating proprietary llms. arXiv preprint
+arXiv:2305.15717, 2023.
+
+--- END DOCS ---
+
+
+
+Please provide a response concisely to the original user query above. You can let the user know if you are not certain of the answer.
+[32mINFO[0m: 2024-05-06 23:05:15,578 - Setting up the chain for fetching and processing documents...
+[32mINFO[0m: 2024-05-06 23:05:15,578 - Starting the parallel runnable...
+[32mINFO[0m: 2024-05-06 23:05:15,579 - Starting the streaming process...
+[32mINFO[0m: 2024-05-06 23:05:15,579 - Streaming responses from LLM...
+[32mINFO[0m: 2024-05-06 23:05:15,579 - Prompt: You are a helpful assistant who responds in short concise, but accurate statements. How would you respond to the following user query: 
+
+what's up doc?
+
+--- BEGIN DOCS ---n
+Additionally, I found the following documents that may be relevant to this inquiry:
+
+1:
+You are asked to come up with a set of {num samples} diverse questions on {task}.
+Please follow these guiding principles when generating responses:
+* Use proper grammar and punctuation.
+* Always generate safe and respectful content. Do not generate content that is harmful, abusive, or
+offensive.
+* Always generate content that is factually accurate and relevant to the prompt.
+* The questions should be clear and human-like.
+* The questions should be diverse and cover a wide range of topics.
+* The questions should not be template-based or generic, it should be very diverse.
+* Simply return the questions, do not return any answers or explanations.
+
+2:
+Please act as an impartial judge and evaluate the quality of the answer provided by an AI assistant
+to the questions displayed below. Evaluate whether or not the answer is a good example of how AI
+Assistant should respond to the user’s instruction. Please assign a score using the following 3-point
+scale:
+1: It means the answer is incorrect, irrelevant, unsafe or provides incomplete and garbage information.
+For instance, the answer may be factually wrong, off-topic, or filled with irrelevant content that
+doesn’t address the user’s question or it could be incomplete and hanging. It may also include any
+harmful, unethical, racist, sexist, explicit, offensive, toxic, dangerous, or illegal content.
+
+3:
+Nisan Stiennon, Long Ouyang, Jeff Wu, Daniel M. Ziegler, Ryan Lowe, Chelsea Voss, Alec Radford,
+Dario Amodei, and Paul Christiano. Learning to summarize from human feedback, 2022.
+Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li, Carlos Guestrin, Percy
+Liang, and Tatsunori B. Hashimoto. Stanford alpaca: An instruction-following llama model.
+https://github.com/tatsu-lab/stanford_alpaca, 2023.
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et al. Llama 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288, 2023.
+
+4:
+an instruction evaluator, the teacher model uses targeted prompts to filter out questions
+that don’t meet predefined principles, including relevance to the domain, potential harm,
+or questions beyond a language model’s answering capabilities. This ensures that only
+high-quality, contextually appropriate questions move forward in the process.
+3. Generating responses: The teacher model, functioning as a response generator in this
+stage, adopts dual personas for precision and creativity, guided by distinct prompts. This
+tailored approach helps to generate both, creative responses for domains like writing and
+role-play, and precise answers for STEM and data extraction, aligning the response style to
+
+5:
+https://github.com/tatsu-lab/stanford_alpaca, 2023.
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et al. Llama 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288, 2023.
+Harsh Trivedi, Niranjan Balasubramanian, Tushar Khot, and Ashish Sabharwal. Musique: Multihop
+questions via single-hop question composition, 2022.
+Lewis Tunstall, Edward Beeching, Nathan Lambert, Nazneen Rajani, Kashif Rasul, Younes Belkada,
+Shengyi Huang, Leandro von Werra, Clementine Fourrier, Nathan Habib, Nathan Sarrazin, Omar ´
+Sanseviero, Alexander M. Rush, and Thomas Wolf. Zephyr: Direct Distillation of LM Alignment,
+
+6:
+mine aligned code and natural language pairs from stack overflow. In International Conference
+on Mining Software Repositories, MSR, pp. 476–486. ACM, 2018. doi: https://doi.org/10.1145/
+3196398.3196408.
+Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. HellaSwag: Can a
+Machine Really Finish Your Sentence?, May 2019.
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang,
+Zi Lin, Zhuohan Li, Dacheng Li, Eric P. Xing, Hao Zhang, Joseph E. Gonzalez, and Ion Stoica.
+Judging llm-as-a-judge with mt-bench and chatbot arena, 2023.
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang,
+
+7:
+3. Generating responses: The teacher model, functioning as a response generator in this
+stage, adopts dual personas for precision and creativity, guided by distinct prompts. This
+tailored approach helps to generate both, creative responses for domains like writing and
+role-play, and precise answers for STEM and data extraction, aligning the response style to
+human expectations through principles and seed examples in the leaf nodes.
+5
+
+8:
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang,
+Zi Lin, Zhuohan Li, Dacheng Li, Eric P. Xing, Hao Zhang, Joseph E. Gonzalez, and Ion Stoica.
+Judging llm-as-a-judge with mt-bench and chatbot arena, 2023.
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang,
+Zi Lin, Zhuohan Li, Dacheng Li, Eric Xing, et al. Judging llm-as-a-judge with mt-bench and
+chatbot arena. Advances in Neural Information Processing Systems, 36, 2024.
+10
+
+9:
+also maintains its knowledge or reasoning capability, as shown by the overall superior performance
+in the rest of the metrics. Besides, unlike those top models that use GPT-4 as the teacher model,
+we achieve this performance using the open-weights MIXTRAL-8X7B-INSTRUCT-V0.1, which is
+relatively weaker teacher model at orders of magnitude less cost.
+REFERENCES
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and
+Oyvind Tafjord. Think you have Solved Question Answering? Try ARC, the AI2 Reasoning
+Challenge, March 2018.
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser,
+
+10:
+relatively weaker teacher model at orders of magnitude less cost.
+REFERENCES
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and
+Oyvind Tafjord. Think you have Solved Question Answering? Try ARC, the AI2 Reasoning
+Challenge, March 2018.
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser,
+Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John
+Schulman. Training Verifiers to Solve Math Word Problems, November 2021.
+Arnav Gudibande, Eric Wallace, Charlie Snell, Xinyang Geng, Hao Liu, Pieter Abbeel, Sergey
+Levine, and Dawn Song. The false promise of imitating proprietary llms. arXiv preprint
+arXiv:2305.15717, 2023.
+
+--- END DOCS ---
+
+
+
+Please provide a response concisely to the original user query above. You can let the user know if you are not certain of the answer.
+[33mWARNING[0m: 2024-05-06 23:05:15,579 - Before streaming...
+[32mINFO[0m: 2024-05-06 23:05:22,126 - HTTP Request: POST http://172.20.3.189:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[32mINFO[0m: 2024-05-06 23:05:23,425 - Model Index: 2
+[32mINFO[0m: 2024-05-06 23:05:23,426 - COLUMN: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(8, 2)), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(8,), _index=4), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+[32mINFO[0m: 2024-05-06 23:05:23,426 - Starting the conversational chat...
+[32mINFO[0m: 2024-05-06 23:05:23,426 - Invoking the LLM asynchronously...
+[32mINFO[0m: 2024-05-06 23:05:23,427 - LLM Initialized
+[32mINFO[0m: 2024-05-06 23:05:24,380 - Full prompt: You are a helpful assistant who responds in short concise, but accurate statements. How would you respond to the following user query: 
+
+what's up doc?
+
+Please provide a response concisely to the original user query above. You can let the user know if you are not certain of the answer.
+[32mINFO[0m: 2024-05-06 23:05:24,380 - Setting up the chain for fetching and processing documents...
+[32mINFO[0m: 2024-05-06 23:05:24,381 - Starting the parallel runnable...
+[32mINFO[0m: 2024-05-06 23:05:24,381 - Starting the streaming process...
+[32mINFO[0m: 2024-05-06 23:05:24,381 - Streaming responses from LLM...
+[32mINFO[0m: 2024-05-06 23:05:24,382 - Prompt: You are a helpful assistant who responds in short concise, but accurate statements. How would you respond to the following user query: 
+
+what's up doc?
+
+Please provide a response concisely to the original user query above. You can let the user know if you are not certain of the answer.
+[33mWARNING[0m: 2024-05-06 23:05:24,382 - Before streaming...
+[32mINFO[0m: 2024-05-06 23:05:24,521 - HTTP Request: POST http://172.20.3.189:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[32mINFO[0m: 2024-05-06 23:05:25,596 - Model Index: 3
+[32mINFO[0m: 2024-05-06 23:05:25,597 - COLUMN: DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(8, 3)), _parent=DeltaGenerator(_provided_cursor=RunningCursor(_parent_path=(8,), _index=4), _parent=DeltaGenerator(), _block_type='horizontal', _form_data=FormData(form_id='')), _block_type='column', _form_data=FormData(form_id=''))
+[32mINFO[0m: 2024-05-06 23:05:25,597 - Starting the conversational chat...
+[32mINFO[0m: 2024-05-06 23:05:25,598 - Invoking the LLM asynchronously...
+[32mINFO[0m: 2024-05-06 23:05:25,599 - LLM Initialized
+[32mINFO[0m: 2024-05-06 23:05:26,568 - Full prompt: You are a helpful assistant who responds in short concise, but accurate statements. How would you respond to the following user query: 
+
+what's up doc?
+
+--- BEGIN DOCS ---n
+Additionally, I found the following documents that may be relevant to this inquiry:
+
+1:
+You are asked to come up with a set of {num samples} diverse questions on {task}.
+Please follow these guiding principles when generating responses:
+* Use proper grammar and punctuation.
+* Always generate safe and respectful content. Do not generate content that is harmful, abusive, or
+offensive.
+* Always generate content that is factually accurate and relevant to the prompt.
+* The questions should be clear and human-like.
+* The questions should be diverse and cover a wide range of topics.
+* The questions should not be template-based or generic, it should be very diverse.
+* Simply return the questions, do not return any answers or explanations.
+
+2:
+Please act as an impartial judge and evaluate the quality of the answer provided by an AI assistant
+to the questions displayed below. Evaluate whether or not the answer is a good example of how AI
+Assistant should respond to the user’s instruction. Please assign a score using the following 3-point
+scale:
+1: It means the answer is incorrect, irrelevant, unsafe or provides incomplete and garbage information.
+For instance, the answer may be factually wrong, off-topic, or filled with irrelevant content that
+doesn’t address the user’s question or it could be incomplete and hanging. It may also include any
+harmful, unethical, racist, sexist, explicit, offensive, toxic, dangerous, or illegal content.
+
+3:
+Nisan Stiennon, Long Ouyang, Jeff Wu, Daniel M. Ziegler, Ryan Lowe, Chelsea Voss, Alec Radford,
+Dario Amodei, and Paul Christiano. Learning to summarize from human feedback, 2022.
+Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li, Carlos Guestrin, Percy
+Liang, and Tatsunori B. Hashimoto. Stanford alpaca: An instruction-following llama model.
+https://github.com/tatsu-lab/stanford_alpaca, 2023.
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et al. Llama 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288, 2023.
+
+4:
+an instruction evaluator, the teacher model uses targeted prompts to filter out questions
+that don’t meet predefined principles, including relevance to the domain, potential harm,
+or questions beyond a language model’s answering capabilities. This ensures that only
+high-quality, contextually appropriate questions move forward in the process.
+3. Generating responses: The teacher model, functioning as a response generator in this
+stage, adopts dual personas for precision and creativity, guided by distinct prompts. This
+tailored approach helps to generate both, creative responses for domains like writing and
+role-play, and precise answers for STEM and data extraction, aligning the response style to
+
+5:
+https://github.com/tatsu-lab/stanford_alpaca, 2023.
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et al. Llama 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288, 2023.
+Harsh Trivedi, Niranjan Balasubramanian, Tushar Khot, and Ashish Sabharwal. Musique: Multihop
+questions via single-hop question composition, 2022.
+Lewis Tunstall, Edward Beeching, Nathan Lambert, Nazneen Rajani, Kashif Rasul, Younes Belkada,
+Shengyi Huang, Leandro von Werra, Clementine Fourrier, Nathan Habib, Nathan Sarrazin, Omar ´
+Sanseviero, Alexander M. Rush, and Thomas Wolf. Zephyr: Direct Distillation of LM Alignment,
+
+6:
+mine aligned code and natural language pairs from stack overflow. In International Conference
+on Mining Software Repositories, MSR, pp. 476–486. ACM, 2018. doi: https://doi.org/10.1145/
+3196398.3196408.
+Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. HellaSwag: Can a
+Machine Really Finish Your Sentence?, May 2019.
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang,
+Zi Lin, Zhuohan Li, Dacheng Li, Eric P. Xing, Hao Zhang, Joseph E. Gonzalez, and Ion Stoica.
+Judging llm-as-a-judge with mt-bench and chatbot arena, 2023.
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang,
+
+7:
+3. Generating responses: The teacher model, functioning as a response generator in this
+stage, adopts dual personas for precision and creativity, guided by distinct prompts. This
+tailored approach helps to generate both, creative responses for domains like writing and
+role-play, and precise answers for STEM and data extraction, aligning the response style to
+human expectations through principles and seed examples in the leaf nodes.
+5
+
+8:
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang,
+Zi Lin, Zhuohan Li, Dacheng Li, Eric P. Xing, Hao Zhang, Joseph E. Gonzalez, and Ion Stoica.
+Judging llm-as-a-judge with mt-bench and chatbot arena, 2023.
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang,
+Zi Lin, Zhuohan Li, Dacheng Li, Eric Xing, et al. Judging llm-as-a-judge with mt-bench and
+chatbot arena. Advances in Neural Information Processing Systems, 36, 2024.
+10
+
+9:
+also maintains its knowledge or reasoning capability, as shown by the overall superior performance
+in the rest of the metrics. Besides, unlike those top models that use GPT-4 as the teacher model,
+we achieve this performance using the open-weights MIXTRAL-8X7B-INSTRUCT-V0.1, which is
+relatively weaker teacher model at orders of magnitude less cost.
+REFERENCES
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and
+Oyvind Tafjord. Think you have Solved Question Answering? Try ARC, the AI2 Reasoning
+Challenge, March 2018.
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser,
+
+10:
+relatively weaker teacher model at orders of magnitude less cost.
+REFERENCES
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and
+Oyvind Tafjord. Think you have Solved Question Answering? Try ARC, the AI2 Reasoning
+Challenge, March 2018.
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser,
+Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John
+Schulman. Training Verifiers to Solve Math Word Problems, November 2021.
+Arnav Gudibande, Eric Wallace, Charlie Snell, Xinyang Geng, Hao Liu, Pieter Abbeel, Sergey
+Levine, and Dawn Song. The false promise of imitating proprietary llms. arXiv preprint
+arXiv:2305.15717, 2023.
+
+--- END DOCS ---
+
+
+
+Please provide a response concisely to the original user query above. You can let the user know if you are not certain of the answer.
+[32mINFO[0m: 2024-05-06 23:05:26,569 - Setting up the chain for fetching and processing documents...
+[32mINFO[0m: 2024-05-06 23:05:26,569 - Starting the parallel runnable...
+[32mINFO[0m: 2024-05-06 23:05:26,569 - Starting the streaming process...
+[32mINFO[0m: 2024-05-06 23:05:26,569 - Streaming responses from LLM...
+[32mINFO[0m: 2024-05-06 23:05:26,569 - Prompt: You are a helpful assistant who responds in short concise, but accurate statements. How would you respond to the following user query: 
+
+what's up doc?
+
+--- BEGIN DOCS ---n
+Additionally, I found the following documents that may be relevant to this inquiry:
+
+1:
+You are asked to come up with a set of {num samples} diverse questions on {task}.
+Please follow these guiding principles when generating responses:
+* Use proper grammar and punctuation.
+* Always generate safe and respectful content. Do not generate content that is harmful, abusive, or
+offensive.
+* Always generate content that is factually accurate and relevant to the prompt.
+* The questions should be clear and human-like.
+* The questions should be diverse and cover a wide range of topics.
+* The questions should not be template-based or generic, it should be very diverse.
+* Simply return the questions, do not return any answers or explanations.
+
+2:
+Please act as an impartial judge and evaluate the quality of the answer provided by an AI assistant
+to the questions displayed below. Evaluate whether or not the answer is a good example of how AI
+Assistant should respond to the user’s instruction. Please assign a score using the following 3-point
+scale:
+1: It means the answer is incorrect, irrelevant, unsafe or provides incomplete and garbage information.
+For instance, the answer may be factually wrong, off-topic, or filled with irrelevant content that
+doesn’t address the user’s question or it could be incomplete and hanging. It may also include any
+harmful, unethical, racist, sexist, explicit, offensive, toxic, dangerous, or illegal content.
+
+3:
+Nisan Stiennon, Long Ouyang, Jeff Wu, Daniel M. Ziegler, Ryan Lowe, Chelsea Voss, Alec Radford,
+Dario Amodei, and Paul Christiano. Learning to summarize from human feedback, 2022.
+Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann Dubois, Xuechen Li, Carlos Guestrin, Percy
+Liang, and Tatsunori B. Hashimoto. Stanford alpaca: An instruction-following llama model.
+https://github.com/tatsu-lab/stanford_alpaca, 2023.
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et al. Llama 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288, 2023.
+
+4:
+an instruction evaluator, the teacher model uses targeted prompts to filter out questions
+that don’t meet predefined principles, including relevance to the domain, potential harm,
+or questions beyond a language model’s answering capabilities. This ensures that only
+high-quality, contextually appropriate questions move forward in the process.
+3. Generating responses: The teacher model, functioning as a response generator in this
+stage, adopts dual personas for precision and creativity, guided by distinct prompts. This
+tailored approach helps to generate both, creative responses for domains like writing and
+role-play, and precise answers for STEM and data extraction, aligning the response style to
+
+5:
+https://github.com/tatsu-lab/stanford_alpaca, 2023.
+Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, et al. Llama 2: Open foundation and fine-tuned chat models. arXiv preprint arXiv:2307.09288, 2023.
+Harsh Trivedi, Niranjan Balasubramanian, Tushar Khot, and Ashish Sabharwal. Musique: Multihop
+questions via single-hop question composition, 2022.
+Lewis Tunstall, Edward Beeching, Nathan Lambert, Nazneen Rajani, Kashif Rasul, Younes Belkada,
+Shengyi Huang, Leandro von Werra, Clementine Fourrier, Nathan Habib, Nathan Sarrazin, Omar ´
+Sanseviero, Alexander M. Rush, and Thomas Wolf. Zephyr: Direct Distillation of LM Alignment,
+
+6:
+mine aligned code and natural language pairs from stack overflow. In International Conference
+on Mining Software Repositories, MSR, pp. 476–486. ACM, 2018. doi: https://doi.org/10.1145/
+3196398.3196408.
+Rowan Zellers, Ari Holtzman, Yonatan Bisk, Ali Farhadi, and Yejin Choi. HellaSwag: Can a
+Machine Really Finish Your Sentence?, May 2019.
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang,
+Zi Lin, Zhuohan Li, Dacheng Li, Eric P. Xing, Hao Zhang, Joseph E. Gonzalez, and Ion Stoica.
+Judging llm-as-a-judge with mt-bench and chatbot arena, 2023.
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang,
+
+7:
+3. Generating responses: The teacher model, functioning as a response generator in this
+stage, adopts dual personas for precision and creativity, guided by distinct prompts. This
+tailored approach helps to generate both, creative responses for domains like writing and
+role-play, and precise answers for STEM and data extraction, aligning the response style to
+human expectations through principles and seed examples in the leaf nodes.
+5
+
+8:
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang,
+Zi Lin, Zhuohan Li, Dacheng Li, Eric P. Xing, Hao Zhang, Joseph E. Gonzalez, and Ion Stoica.
+Judging llm-as-a-judge with mt-bench and chatbot arena, 2023.
+Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang,
+Zi Lin, Zhuohan Li, Dacheng Li, Eric Xing, et al. Judging llm-as-a-judge with mt-bench and
+chatbot arena. Advances in Neural Information Processing Systems, 36, 2024.
+10
+
+9:
+also maintains its knowledge or reasoning capability, as shown by the overall superior performance
+in the rest of the metrics. Besides, unlike those top models that use GPT-4 as the teacher model,
+we achieve this performance using the open-weights MIXTRAL-8X7B-INSTRUCT-V0.1, which is
+relatively weaker teacher model at orders of magnitude less cost.
+REFERENCES
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and
+Oyvind Tafjord. Think you have Solved Question Answering? Try ARC, the AI2 Reasoning
+Challenge, March 2018.
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser,
+
+10:
+relatively weaker teacher model at orders of magnitude less cost.
+REFERENCES
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot, Ashish Sabharwal, Carissa Schoenick, and
+Oyvind Tafjord. Think you have Solved Question Answering? Try ARC, the AI2 Reasoning
+Challenge, March 2018.
+Karl Cobbe, Vineet Kosaraju, Mohammad Bavarian, Mark Chen, Heewoo Jun, Lukasz Kaiser,
+Matthias Plappert, Jerry Tworek, Jacob Hilton, Reiichiro Nakano, Christopher Hesse, and John
+Schulman. Training Verifiers to Solve Math Word Problems, November 2021.
+Arnav Gudibande, Eric Wallace, Charlie Snell, Xinyang Geng, Hao Liu, Pieter Abbeel, Sergey
+Levine, and Dawn Song. The false promise of imitating proprietary llms. arXiv preprint
+arXiv:2305.15717, 2023.
+
+--- END DOCS ---
+
+
+
+Please provide a response concisely to the original user query above. You can let the user know if you are not certain of the answer.
+[33mWARNING[0m: 2024-05-06 23:05:26,570 - Before streaming...
+[32mINFO[0m: 2024-05-06 23:05:33,065 - HTTP Request: POST http://172.20.3.189:8001/v1/chat/completions "HTTP/1.1 200 OK"

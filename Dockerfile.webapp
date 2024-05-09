@@ -2,6 +2,8 @@
 # Use Red Hat's python image as the base image
 FROM --platform=linux/amd64 registry.access.redhat.com/ubi8/python-311
 
+USER root
+
 RUN pip install --upgrade pip
 
 # Set the working directory
@@ -16,22 +18,14 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the app files
 COPY src/ .
 
-USER 1001
+#RUN chown -R 1001:0 /app
+RUN chgrp -R 0 /app && \
+    chmod -R g=u /app
 
-RUN chown -R 1001:0 /app
+USER 1001
 
 # Expose the port
 EXPOSE 8501
 
 # Run the app
 CMD ["streamlit", "run", "app.py"]
-
-
-# Build the image as Dockerfile.webapp
-# podman build -t summit-webapp -f Dockerfile.webapp .
-
-# Push the image to the registry
-# podman push summit-webapp quay.io/summit-webapp
-
-# Run the container
-# podman run -p 8501:8501 summit-webapp
